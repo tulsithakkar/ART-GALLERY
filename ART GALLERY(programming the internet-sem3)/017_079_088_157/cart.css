@@ -1,0 +1,97 @@
+*
+{
+    box-sizing: border-box;
+}
+.main
+{
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+    margin: 5px;
+    grid-template-columns: auto;
+    grid-template-rows: AUTO;
+    background-color: gray;
+}
+.logo
+{
+    text-align: center;
+    background-color: steelblue;
+    box-shadow: white 2px 3px 4px;
+    width: 1250px; margin: 20px;
+    height: 200px;
+}
+.logo > img
+{ 
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 20px;
+    box-shadow: black 2px 3px 4px;
+}
+.logo > h3
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-shadow: black 2px 2px 7px;
+}
+.con
+{
+    text-align: left;
+    background-color: white;
+    padding: 50px 100px;
+    height: 500px;
+    width: 1250px; margin: 20px;
+    box-shadow: black 2px 4px 3px;
+}
+.con > img
+{
+    height: 200px;
+    width: 200px;
+    box-shadow: steelblue 2px 6px 10px;
+}
+.con label{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.check button{
+
+    background-color:  steelblue; 
+    text-align: center;
+    height: 70px; width: 500px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 450px ;
+    margin-bottom: 20px;
+    box-shadow: black 2px 4px 10px 5px;
+}
+.check button a
+{
+    color: white;
+}
+.check button:hover{
+    background-color: darkmagenta;
+}
+.check button a:hover{
+    color: white;
+}
+.footer{
+    background: black;
+}
+.footer p{
+    color: white;
+    font-size: 15px;
+    padding-left: 50px;
+    padding: 20px;
+}
+.footer p img{
+    height: 30px;width: 50px;
+    margin-left: 10px;
+    padding-left: 10px;
+}

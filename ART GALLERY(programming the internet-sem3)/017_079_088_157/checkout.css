@@ -1,0 +1,117 @@
+*
+{
+    box-sizing: border-box;
+}
+.main
+{
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+    margin: 5px;
+    grid-template-columns: auto;
+    grid-template-rows: AUTO;
+    height: 1000px;
+    background-color: gray;
+}
+.logo
+{
+    background-color: steelblue;
+    height: 200px;
+    width: 1250px;
+    margin: 25px;
+    box-shadow: white 2px 3px 5px;
+}
+.logo > img
+{
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    float: left;
+    box-shadow:  black 2px 3px 10px;
+}
+.logo > h3
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+    text-shadow: black 2px 3px 5px;
+}
+.Billingdetails
+{
+    height: 700px;
+    width: 1250px;
+    margin: 25px; margin-bottom: 300px;
+    box-shadow: rgb(78, 55, 55) 2px 4px 10px;
+    background-color: white;
+}
+.Billingdetails > p{
+    text-align: left;
+    margin-left:40px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.next button{
+
+    background-color:  steelblue; 
+    text-align: center;
+    height: 50px; width: 120px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 550px ;
+    margin-bottom: 20px;
+    box-shadow: black 2px 4px 10px 5px;
+}
+.next button a
+{
+    color: white;
+}
+.next button:hover{
+    background-color: green;
+}
+.next button a:hover{
+    color: white;
+}
+.home button{
+
+    background-color:  steelblue; 
+    text-align: center;
+    height: 70px; width: 200px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 500px ;
+    margin-bottom: 20px;
+    box-shadow: black 2px 4px 10px 5px;
+}
+.home button a
+{
+    color: white;
+}
+.home button:hover{
+    background-color: darkmagenta;
+}
+.home button a:hover{
+    color: white;
+}
+.footer{
+    background: black;
+}
+.footer p{
+    color: white;
+    font-size: 15px;
+    padding-left: 50px;
+    padding: 20px;
+}
+.footer p img{
+    height: 30px;width: 50px;
+    margin-left: 10px;
+    padding-left: 10px;
+}

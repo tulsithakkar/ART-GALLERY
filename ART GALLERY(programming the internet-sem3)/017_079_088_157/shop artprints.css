@@ -1,0 +1,145 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    background-color: gray;
+}
+.main
+{
+    background-color: gray; 
+    height: auto;
+}
+.drop
+{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    box-shadow: white 2px 4px 10px 5px;
+    width: 400px; height: 50px;
+    margin-top: 20px ;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+} 
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    box-shadow: 0px 8px 18px 0px rgba(0,0,0,0.2);
+    z-index: 1; margin-left: 50px;
+} 
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    box-shadow: 0px 8px 18px 0px rgba(0,0,0,0.2);
+    
+}
+.dropdown-content a:hover 
+{
+    background-color:  cornflowerblue;
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+.dropdown:hover .drop 
+{
+    background-color: white;
+    color: black;
+}
+.container
+{
+    max-width: 1200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.gallery
+{
+    margin: 5px;
+    float: left;
+    width: 390px;
+    font-family: fantasy;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+.gallery img
+{
+    width: 100%; box-shadow: black 2px 4px 10px 5px;
+    height: 70%; padding-left: 30px;
+    padding: 20px; border-radius: 10px;
+}
+.desc
+{
+    padding-top: 30px;
+    text-align: center;
+}
+.desc button{
+    height: 50px; width: 100px; 
+    background-color: rgb(11, 131, 11);
+    box-shadow: black 2px 2px 5px 2px;
+}
+.desc  button a{
+    color: white;
+}
+.desc button:hover{
+    background-color: darkmagenta;
+}
+.button
+{
+    grid-area: 6/span 2;
+    background-color:  steelblue; 
+    text-align: center;
+    height: 70px; width: 500px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 450px ;
+    margin-bottom: 20px;
+    box-shadow: black 2px 4px 10px 5px;
+}
+.button a
+{
+    color: white;
+}
+.button:hover{
+    background-color: darkmagenta;
+}
+.button a:hover{
+    color: white;
+}
+.footer{
+    background: black;
+}
+.footer p{
+    color: white;
+    font-size: 15px;
+    padding-left: 50px;
+    padding: 20px;
+}
+.footer p img{
+    height: 30px;width: 50px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
